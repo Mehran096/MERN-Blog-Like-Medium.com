@@ -1,0 +1,16 @@
+.bgImage{
+    background: url('/images/nature.jpg');
+    width: 100%;
+    height: calc(100vh - 8rem);
+    background-size: cover;
+
+    @include responsive(mobile){
+        width: 0;
+        height: 0;
+    }
+    //tablet
+    @include responsive(tablet){
+        width: 0;
+        height: 0;
+    }
+}
