@@ -16,6 +16,10 @@
     border-top: none;
     &__title {
         width: 70%;
+        @include responsive(mobile){
+            width: 60%;
+             
+        }
         a {
             text-decoration: none;
             font-size: 1.6rem;
@@ -32,6 +36,11 @@
     &__links {
         width: 30%;
         text-align: right;
+        @include responsive(mobile){
+            width: 40%;
+            display: flex;
+             
+        }
     }
 
 }
